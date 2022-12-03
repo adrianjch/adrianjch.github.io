@@ -441,6 +441,10 @@ input, select, textarea {
 				.row.gtr-0.gtr-uniform > * {
 					padding-top: 0em;
 				}
+				
+				.row.gtr-0.gtr-uniform > :last-child {
+					padding-bottom: 0em;
+				}
 
 		.row.gtr-25 {
 			margin-top: 0;
@@ -457,6 +461,10 @@ input, select, textarea {
 
 				.row.gtr-25.gtr-uniform > * {
 					padding-top: 0.375em;
+				}
+				
+				.row.gtr-25.gtr-uniform > :last-child {
+					padding-bottom: 0.375em;
 				}
 
 		.row.gtr-50 {
@@ -475,6 +483,10 @@ input, select, textarea {
 				.row.gtr-50.gtr-uniform > * {
 					padding-top: 0.75em;
 				}
+				
+				.row.gtr-50.gtr-uniform > :last-child {
+					padding-bottom: 0.75em;
+				}
 
 		.row {
 			margin-top: 0;
@@ -491,6 +503,10 @@ input, select, textarea {
 
 				.row.gtr-uniform > * {
 					padding-top: 1.5em;
+				}
+				
+				.row.gtr-uniform > :last-child {
+					padding-bottom: 1.5em;
 				}
 
 		.row.gtr-150 {
@@ -509,6 +525,10 @@ input, select, textarea {
 				.row.gtr-150.gtr-uniform > * {
 					padding-top: 2.25em;
 				}
+				
+				.row.gtr-150.gtr-uniform > :last-child {
+					padding-bottom: 2.25em;
+				}
 
 		.row.gtr-200 {
 			margin-top: 0;
@@ -525,6 +545,10 @@ input, select, textarea {
 
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 3em;
+				}
+				
+				.row.gtr-200.gtr-uniform > :last-child {
+					padding-bottom: 3em;
 				}
 
 		@media screen and (max-width: 1680px) {
@@ -684,6 +708,10 @@ input, select, textarea {
 						.row.gtr-0.gtr-uniform > * {
 							padding-top: 0em;
 						}
+						
+						.row.gtr-0.gtr-uniform > :last-child {
+							padding-bottom: 0em;
+						}
 
 				.row.gtr-25 {
 					margin-top: 0;
@@ -700,6 +728,10 @@ input, select, textarea {
 
 						.row.gtr-25.gtr-uniform > * {
 							padding-top: 0.375em;
+						}
+						
+						.row.gtr-25.gtr-uniform > :last-child {
+							padding-bottom: 0.375em;
 						}
 
 				.row.gtr-50 {
@@ -718,6 +750,10 @@ input, select, textarea {
 						.row.gtr-50.gtr-uniform > * {
 							padding-top: 0.75em;
 						}
+						
+						.row.gtr-50.gtr-uniform > :last-child {
+							padding-bottom: 0.75em;
+						}
 
 				.row {
 					margin-top: 0;
@@ -734,6 +770,10 @@ input, select, textarea {
 
 						.row.gtr-uniform > * {
 							padding-top: 1.5em;
+						}
+						
+						.row.gtr-uniform > :last-child {
+							padding-bottom: 1.5em;
 						}
 
 				.row.gtr-150 {
@@ -752,6 +792,10 @@ input, select, textarea {
 						.row.gtr-150.gtr-uniform > * {
 							padding-top: 2.25em;
 						}
+						
+						.row.gtr-150.gtr-uniform > :last-child {
+							padding-bottom: 2.25em;
+						}
 
 				.row.gtr-200 {
 					margin-top: 0;
@@ -768,6 +812,10 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
+						}
+						
+						.row.gtr-200.gtr-uniform > :last-child {
+							padding-bottom: 3em;
 						}
 
 		}
@@ -929,6 +977,10 @@ input, select, textarea {
 						.row.gtr-0.gtr-uniform > * {
 							padding-top: 0em;
 						}
+						
+						.row.gtr-0.gtr-uniform > :last-child {
+							padding-bottom: 0em;
+						}
 
 				.row.gtr-25 {
 					margin-top: 0;
@@ -945,6 +997,10 @@ input, select, textarea {
 
 						.row.gtr-25.gtr-uniform > * {
 							padding-top: 0.375em;
+						}
+						
+						.row.gtr-25.gtr-uniform > :last-child {
+							padding-bottom: 0.375em;
 						}
 
 				.row.gtr-50 {
@@ -963,6 +1019,10 @@ input, select, textarea {
 						.row.gtr-50.gtr-uniform > * {
 							padding-top: 0.75em;
 						}
+						
+						.row.gtr-50.gtr-uniform > :last-child {
+							padding-bottom: 0.75em;
+						}
 
 				.row {
 					margin-top: 0;
@@ -979,6 +1039,10 @@ input, select, textarea {
 
 						.row.gtr-uniform > * {
 							padding-top: 1.5em;
+						}
+						
+						.row.gtr-uniform > :last-child {
+							padding-bottom: 1.5em;
 						}
 
 				.row.gtr-150 {
@@ -997,6 +1061,10 @@ input, select, textarea {
 						.row.gtr-150.gtr-uniform > * {
 							padding-top: 2.25em;
 						}
+						
+						.row.gtr-150.gtr-uniform > :last-child {
+							padding-bottom: 2.25em;
+						}
 
 				.row.gtr-200 {
 					margin-top: 0;
@@ -1013,6 +1081,10 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
+						}
+						
+						.row.gtr-200.gtr-uniform > :last-child {
+							padding-bottom: 3em;
 						}
 
 		}
@@ -1174,6 +1246,10 @@ input, select, textarea {
 						.row.gtr-0.gtr-uniform > * {
 							padding-top: 0em;
 						}
+						
+						.row.gtr-0.gtr-uniform > :last-child {
+							padding-bottom: 0em;
+						}
 
 				.row.gtr-25 {
 					margin-top: 0;
@@ -1190,6 +1266,10 @@ input, select, textarea {
 
 						.row.gtr-25.gtr-uniform > * {
 							padding-top: 0.375em;
+						}
+						
+						.row.gtr-25.gtr-uniform > :last-child {
+							padding-bottom: 0.375em;
 						}
 
 				.row.gtr-50 {
@@ -1208,6 +1288,10 @@ input, select, textarea {
 						.row.gtr-50.gtr-uniform > * {
 							padding-top: 0.75em;
 						}
+						
+						.row.gtr-50.gtr-uniform > :last-child {
+							padding-bottom: 0.75em;
+						}
 
 				.row {
 					margin-top: 0;
@@ -1224,6 +1308,10 @@ input, select, textarea {
 
 						.row.gtr-uniform > * {
 							padding-top: 1.5em;
+						}
+						
+						.row.gtr-uniform > :last-child {
+							padding-bottom: 1.5em;
 						}
 
 				.row.gtr-150 {
@@ -1242,6 +1330,10 @@ input, select, textarea {
 						.row.gtr-150.gtr-uniform > * {
 							padding-top: 2.25em;
 						}
+						
+						.row.gtr-150.gtr-uniform > :last-child {
+							padding-bottom: 2.25em;
+						}
 
 				.row.gtr-200 {
 					margin-top: 0;
@@ -1258,6 +1350,10 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
+						}
+						
+						.row.gtr-200.gtr-uniform > :last-child {
+							padding-bottom: 3em;
 						}
 
 		}
@@ -1419,6 +1515,10 @@ input, select, textarea {
 						.row.gtr-0.gtr-uniform > * {
 							padding-top: 0em;
 						}
+						
+						.row.gtr-0.gtr-uniform > :last-child {
+							padding-bottom: 0em;
+						}
 
 				.row.gtr-25 {
 					margin-top: 0;
@@ -1435,6 +1535,10 @@ input, select, textarea {
 
 						.row.gtr-25.gtr-uniform > * {
 							padding-top: 0.375em;
+						}
+						
+						.row.gtr-25.gtr-uniform > :last-child {
+							padding-bottom: 0.375em;
 						}
 
 				.row.gtr-50 {
@@ -1453,6 +1557,10 @@ input, select, textarea {
 						.row.gtr-50.gtr-uniform > * {
 							padding-top: 0.75em;
 						}
+						
+						.row.gtr-50.gtr-uniform > :last-child {
+							padding-bottom: 0.75em;
+						}
 
 				.row {
 					margin-top: 0;
@@ -1469,6 +1577,9 @@ input, select, textarea {
 
 						.row.gtr-uniform > * {
 							padding-top: 1.5em;
+						}
+						.row.gtr-uniform > :last-child {
+							padding-bottom: 1.5em;
 						}
 
 				.row.gtr-150 {
@@ -1487,6 +1598,10 @@ input, select, textarea {
 						.row.gtr-150.gtr-uniform > * {
 							padding-top: 2.25em;
 						}
+						
+						.row.gtr-150.gtr-uniform > :last-child {
+							padding-bottom: 2.25em;
+						}
 
 				.row.gtr-200 {
 					margin-top: 0;
@@ -1503,6 +1618,10 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
+						}
+						
+						.row.gtr-200.gtr-uniform > :last-child {
+							padding-bottom: 3em;
 						}
 
 		}
@@ -1664,6 +1783,10 @@ input, select, textarea {
 						.row.gtr-0.gtr-uniform > * {
 							padding-top: 0em;
 						}
+						
+						.row.gtr-0.gtr-uniform > :last-child {
+							padding-bottom: 0em;
+						}
 
 				.row.gtr-25 {
 					margin-top: 0;
@@ -1680,6 +1803,10 @@ input, select, textarea {
 
 						.row.gtr-25.gtr-uniform > * {
 							padding-top: 0.375em;
+						}
+						
+						.row.gtr-25.gtr-uniform > :last-child {
+							padding-bottom: 0.375em;
 						}
 
 				.row.gtr-50 {
@@ -1698,6 +1825,10 @@ input, select, textarea {
 						.row.gtr-50.gtr-uniform > * {
 							padding-top: 0.75em;
 						}
+						
+						.row.gtr-50.gtr-uniform > :last-child {
+							padding-bottom: 0.75em;
+						}
 
 				.row {
 					margin-top: 0;
@@ -1714,6 +1845,10 @@ input, select, textarea {
 
 						.row.gtr-uniform > * {
 							padding-top: 1.5em;
+						}
+						
+						.row.gtr-uniform > :last-child {
+							padding-bottom: 1.5em;
 						}
 
 				.row.gtr-150 {
@@ -1732,6 +1867,10 @@ input, select, textarea {
 						.row.gtr-150.gtr-uniform > * {
 							padding-top: 2.25em;
 						}
+						
+						.row.gtr-150.gtr-uniform > :last-child {
+							padding-bottom: 2.25em;
+						}
 
 				.row.gtr-200 {
 					margin-top: 0;
@@ -1748,6 +1887,10 @@ input, select, textarea {
 
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
+						}
+						
+						.row.gtr-200.gtr-uniform > :last-child {
+							padding-bottom: 3em;
 						}
 
 		}
@@ -3885,7 +4028,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0;
+		padding: 2em 0 1em 0;
 		background-color: #1d242a;
 		text-align: center;
 	}
@@ -3964,10 +4107,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
