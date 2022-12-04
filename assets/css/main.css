@@ -2280,19 +2280,29 @@ input, select, textarea {
 			}
 			
 			.image.fit p {
+				margin: 0;
 				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				text-align: center;
 				
 				color: #fff;
-				font-family: "Open Sans", Helvetica, sans-serif;
-				font-size: 18pt;
-				font-weight: 700;
+				font-family: sans-serif;
+				font-size: 1.2em;
+				font-weight: bold;
 				letter-spacing: 0.05em;
 				
 				opacity: 0;
 				transition: opacity 0.5s;
+			}
+			
+			.image.fit p:before {
+				vertical-align: middle;
+				content: '';
+				display: inline-block;
+				height: 100%;
 			}
 			
 			.image.fit:hover img {
