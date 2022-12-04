@@ -2274,6 +2274,35 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				
+				filter: brightness(1);
+				transition: filter 0.5s;
+			}
+			
+			.image.fit p {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				
+				color: #fff;
+				font-family: "Open Sans", Helvetica, sans-serif;
+				font-size: 18pt;
+				font-weight: 700;
+				letter-spacing: 0.05em;
+				
+				opacity: 0;
+				transition: opacity 0.5s;
+			}
+			
+			.image.fit:hover img {
+				filter: brightness(0.8);
+				transition: filter 0.5s;
+			}
+			
+			.image.fit:hover p {
+				opacity: 1;
+				transition: opacity 0.5s;
 			}
 
 /* List */
