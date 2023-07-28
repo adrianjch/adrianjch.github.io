@@ -2249,7 +2249,8 @@ input, select, textarea {
 	}
 
 		.image img {
-			border-radius: 3px;
+			border-radius: 20px;
+			border: 0px solid #6e6d6d;
 			display: block;
 		}
 
@@ -2324,6 +2325,17 @@ input, select, textarea {
 				content: '';
 				display: inline-block;
 				height: 100%;
+			}
+
+			.image.fit img.static {
+				z-index: 999;
+				position:absolute;
+				opacity: 1;
+				transition: opacity 0.2s;
+			}
+			.image.fit img.static:hover {
+				opacity: 0;
+				transition: opacity 0.2s;
 			}
 
 /* List */
@@ -2991,7 +3003,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3507,7 +3519,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				padding: 4em 3em 2em 3em ;
+				padding: 3em 3em 3em 3em ;
 			}
 
 		}
@@ -3515,7 +3527,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				padding: 3em 2em 1em 2em ;
+				padding: 2em 2em 2em 2em ;
 			}
 
 		}
@@ -4018,28 +4030,47 @@ input, select, textarea {
 
 	#main > header {
 		padding: 10em 0 8em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: center;
 	}
+	.generic {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/banner2.jpg');
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/banner2.jpg');
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/banner2.jpg');
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/banner2.jpg');
+	}
+	.project-st {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/videogames/project-st-banner.png');
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/videogames/project-st-banner.png');
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/videogames/project-st-banner.png');
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/videogames/project-st-banner.png');
+	}
+	.the-harvest {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/videogames/the-harvest-banner.png');
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/videogames/the-harvest-banner.png');
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/videogames/the-harvest-banner.png');
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../images/videogames/the-harvest-banner.png');
+	}
 
 		#main > header h2 {
-			font-size: 2em;
-			letter-spacing: 0.15em;
-			margin: 0 0 1.5em 0;
+			font-size: 3em;
+			letter-spacing: 0.1em;
+			margin: 0 0 0.01em 0;
+		}
+		
+		#main > header h6 {
+			font-size: 0.6em;
+			letter-spacing: 0.1em;
 		}
 
 		#main > header p {
 			color: inherit;
-			letter-spacing: 0.15em;
-			text-transform: uppercase;
+			letter-spacing: 0.1em;
 			top: 0;
+			margin: 5em 0 0 0;
 		}
 
 			#main > header p a {
@@ -4077,7 +4108,11 @@ input, select, textarea {
 			}
 
 				#main > header h2 {
-					font-size: 1.25em;
+					font-size: 2em;
+					margin: 0 0 1em 0;
+				}
+				#main > header h6 {
+					font-size: 0.6em;
 					margin: 0 0 1em 0;
 				}
 
@@ -4105,7 +4140,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 2em 0 1em 0;
+		padding: 1em 0 0.01em 0;
 		background-color: #1d242a;
 		text-align: center;
 	}
@@ -4124,7 +4159,7 @@ input, select, textarea {
 
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.7em;
+			font-size: 0.6em;
 			letter-spacing: 0.225em;
 			list-style: none;
 			padding: 0;
@@ -4168,7 +4203,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 3em 2em 3em ;
+				padding: 1.5em 1em 0.01em 1em ;
 			}
 
 		}
@@ -4176,7 +4211,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 2em 1em 2em ;
+				padding: 1em 1em 0.01em 1em ;
 			}
 
 		}
