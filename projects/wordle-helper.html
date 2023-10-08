@@ -39,23 +39,30 @@
 			<article id="main">
 				<header>
 					<h2>Wordle helper</h2>
-					<p>This page is under construction!</p>
+					<a href="https://github.com/adrianjch/wordle-helper">Check the code on GitHub!</a>
 				</header>
 				<section class="wrapper style5">
 					<div class="inner">
-
-						<h3>Lorem ipsum dolor</h3>
-						<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-
-						<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
-
-						<hr />
-
-						<h4>Feugiat aliquam</h4>
-						<p>Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat.</p>
-
-						<p>Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.</p>
-
+						<h3>Wordelper?</h3>
+						<p>This is a small project that I did back when <a href="https://en.wikipedia.org/wiki/Wordle">Wordle</a> became popular. It is an approach to get efficient words to find out the correct answer.
+						As most of my projects, it is done in C++.</p>
+						
+						<p><span class="image right"><img src="../images/projects/wordle-helper-old.png"/></span>Initially, I just did it using a basic cmd window.
+						It was extremely simple. The settings were stored on a file in the main folder. In there you would select which language did you want to use and how many characters you wanted the words to be.
+						To tell the program the result of a word you would have to enter a number 0/1/2 for each character where 0 meant incorrect character (gray),
+						1 meant correct character (yellow) but on a wrong position and 2 meant correct character on the correct position (green).</p>
+						<p>&nbsp;</p>
+						<p><span class="image left"><img src="../images/projects/wordle-helper-new.png"/></span>Over a year later I found out about this project again and decided to make it look cooler, so I implemented the whole UI using <a href="https://github.com/ocornut/imgui">Dear ImGUI by ocornut</a>.
+						This way, now the user has a proper scrollable list with many good words to use and it even includes a working simulation of the game. Just type the word you selected, click on the respective boxes to change their color and when you are done just submit!
+						The settings were moved to the UI too, so no more need to open and edit weird files!</p>
+						<p>&nbsp;</p>
+						<p>The premise is quite simple. First of all, we need a <b>dictionary</b> and a <a href="https://en.wikipedia.org/wiki/Letter_frequency"><b>letter frequency</b></a> for each language we want to be able to solve the Wordle game.
+						Both of those can be found on the internet by doing some research. In the project I provided both files for English, Spanish and Catalan. For simplicity, I multiplied all values from the letter frequencies by 10 and rounded them to not have to handle with float values.
+						Once this is set, we can start with the game.</p>
+						<p>For each word that fits the length that has been assigned in the settings, the program will assign it a score based on all the characters that conform the word using the letter frequency.
+						For example, on a basic Wordle game (English, 5 characters) the best opening word with this system is <i>atone</i> with a score of 442. That is the sum of the letter frequency score in English: a(82), t(91), o(75), n(67), e(127).
+						The program shows the list of the 200 best words sorted to the user, so they can grab the best word they think it can suit. Then the user has to type which word they actually selected and the result of it.
+						Based on that, the list of available words will be updated, removing all the words with the banned characters and characters at wrong spots. After that, the process just repeats until the Wordle game finishes.</p>
 					</div>
 				</section>
 			</article>
