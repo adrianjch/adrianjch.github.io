@@ -44,25 +44,25 @@
 				<section class="wrapper style5">
 					<div class="inner">
 						<h3>Wordelper?</h3>
-						<p>This is a small project that I did back when <a href="https://en.wikipedia.org/wiki/Wordle">Wordle</a> became popular. It is an approach to get efficient words to find out the correct answer.
-						As most of my projects, it is done in C++.</p>
+						<p>This is a small project that I worked on when <a href="https://en.wikipedia.org/wiki/Wordle">Wordle</a> became popular. It's an approach to efficiently find the correct answer to the game.
+						Like most of my projects, it was done in C++.</p>
 						
 						<p><span class="image right"><img src="../images/projects/wordle-helper-old.png"/></span>Initially, I just did it using a basic cmd window.
 						It was extremely simple. The settings were stored on a file in the main folder. In there you would select which language did you want to use and how many characters you wanted the words to be.
-						To tell the program the result of a word you would have to enter a number 0/1/2 for each character where 0 meant incorrect character (gray),
-						1 meant correct character (yellow) but on a wrong position and 2 meant correct character on the correct position (green).</p>
+						To inform the program about the result of a word you would enter a number for each character in the word: 0 for an incorrect character (gray),
+						1 for a correct character in the wrong position (yellow), and 2 for a correct character in the correct position (green).</p>
 						<p>&nbsp;</p>
-						<p><span class="image left"><img src="../images/projects/wordle-helper-new.png"/></span>Over a year later I found out about this project again and decided to make it look cooler, so I implemented the whole UI using <a href="https://github.com/ocornut/imgui">Dear ImGUI by ocornut</a>.
-						This way, now the user has a proper scrollable list with many good words to use and it even includes a working simulation of the game. Just type the word you selected, click on the respective boxes to change their color and when you are done just submit!
-						The settings were moved to the UI too, so no more need to open and edit weird files!</p>
+						<p><span class="image left"><img src="../images/projects/wordle-helper-new.png"/></span>Over a year later, I found out about this project again and decided to improve its appearance. I implemented a complete UI using <a href="https://github.com/ocornut/imgui">Dear ImGui by ocornut</a>.
+						Now, users have access to a scrollable list of many suitable words, along with a functional simulation of the game. You can simply type the selected word, click on the respective boxes to change their color, and submit it when you're done.
+						The settings have also been moved to the UI, eliminating the need to open and edit files.</p>
 						<p>&nbsp;</p>
-						<p>The premise is quite simple. First of all, we need a <b>dictionary</b> and a <a href="https://en.wikipedia.org/wiki/Letter_frequency"><b>letter frequency</b></a> for each language we want to be able to solve the Wordle game.
-						Both of those can be found on the internet by doing some research. In the project I provided both files for English, Spanish and Catalan. For simplicity, I multiplied all values from the letter frequencies by 10 and rounded them to not have to handle with float values.
-						Once this is set, we can start with the game.</p>
-						<p>For each word that fits the length that has been assigned in the settings, the program will assign it a score based on all the characters that conform the word using the letter frequency.
-						For example, on a basic Wordle game (English, 5 characters) the best opening word with this system is <i>atone</i> with a score of 442. That is the sum of the letter frequency score in English: a(82), t(91), o(75), n(67), e(127).
-						The program shows the list of the 200 best words sorted to the user, so they can grab the best word they think it can suit. Then the user has to type which word they actually selected and the result of it.
-						Based on that, the list of available words will be updated, removing all the words with the banned characters and characters at wrong spots. After that, the process just repeats until the Wordle game finishes.</p>
+						<p>The premise is quite simple. First of all, we need a <b>dictionary</b> and <a href="https://en.wikipedia.org/wiki/Letter_frequency"><b>letter frequencies</b></a> for each language we want to be able to solve the Wordle game.
+						Both of those can be found on the internet by doing some research. In the project, I provided both files for English, Spanish and Catalan. For simplicity, I multiplied all values from the letter frequencies by 10 and rounded them to avoid handling float values.
+						Once this is set up, we can start with the game.</p>
+						<p>For each word that matches the length assigned in the settings, the program assigns it a score based on all the characters in the word using the letter frequencies.
+						For example, in a basic Wordle game (English, 5 characters) the best opening word with this system is <i>atone</i> with a score of 442. This score is the sum of the letter frequency scores in English: a(82), t(91), o(75), n(67), e(127).
+						The program shows the list of the 200 best words sorted for the user to choose from. Then, the user has to type the word they selected and its result.
+						Based on that, the list of available words is updated, removing all the words with banned characters and characters in the wrong positions. After that, the process repeats until the Wordle game is completed.</p>
 					</div>
 				</section>
 			</article>
