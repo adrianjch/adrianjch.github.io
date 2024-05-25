@@ -4056,16 +4056,16 @@ input, select, textarea {
 		background-image: linear-gradient(top, rgba(0,0,0,0.8), rgba(256,0,0,0.9)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/banner2.jpg');
 	}
 	.project-st {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/project-st-banner.png');
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/project-st-banner.png');
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/project-st-banner.png');
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/project-st-banner.png');
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/project-st-banner.jpg');
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/project-st-banner.jpg');
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/project-st-banner.jpg');
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/project-st-banner.jpg');
 	}
 	.the-harvest {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/the-harvest-banner.png');
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/the-harvest-banner.png');
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/the-harvest-banner.png');
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/the-harvest-banner.png');
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/the-harvest-banner.jpg');
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/the-harvest-banner.jpg');
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/the-harvest-banner.jpg');
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.jsdelivr.net/gh/adrianjch/adrianjch.github.io/images/videogames/the-harvest-banner.jpg');
 	}
 
 		#main > header h2 {
